@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import heartImage from "../../assets/images/shapes/heart-2-1.png";
 import bgImage from "../../assets/images/team/team-map-1-1.png";
-import teamImage1 from "../../assets/images/team/team-2-1.jpg";
-import teamImage2 from "../../assets/images/team/team-2-2.jpg";
-import teamImage3 from "../../assets/images/team/team-2-3.jpg";
-import teamImage4 from "../../assets/images/team/team-2-4.jpg";
+import teamImage1 from "../../assets/images/team/ali1.jpg";
+import teamImage2 from "../../assets/images/team/ibne1.jpg";
+import teamImage3 from "../../assets/images/team/ibne1.jpg";
+import teamImage4 from "../../assets/images/team/frank1.jpg";
 
 const TeamData = [
   {

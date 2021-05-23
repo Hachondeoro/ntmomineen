@@ -93,7 +93,6 @@ const Events = ({ data }) => {
       <StickyHeader />
       <PageHeader title="Events" crumbTitle="Events" />
       <section className="event-page pt-120 pb-120">
-        {console.log(data)}
         <Container>
           <div className="event-grid">
             {data.allEvents.map((event, index) => (

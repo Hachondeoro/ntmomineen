@@ -12,6 +12,7 @@ const HeaderOne = () => {
       mobileMenu();
     };
   });
+  
 
   const mobileMenu = () => {
     document
@@ -19,7 +20,7 @@ const HeaderOne = () => {
       .addEventListener("click", function (e) {
         document
           .querySelector(".mobile-nav__wrapper")
-          .classList.toggle("expanded");
+          .classList.toggle("expanded",true);
         e.preventDefault();
       });
     // search toggler

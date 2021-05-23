@@ -10,20 +10,13 @@ const serviceOneData = [
     icon: "azino-icon-family",
     extraClassName: "background-secondary",
     title: "Family",
-    text: "Lorem ipsum is simply free text available in the market wesbites.",
-    link: "#"
-  },
-  {
-    icon: "azino-icon-hamburger",
-    title: "Food",
-    extraClassName: "background-base",
-    text: "Lorem ipsum is simply free text available in the market wesbites.",
+    text: "We are a family focused muslim community",
     link: "#"
   },
   {
     icon: "azino-icon-reading-book",
     title: "Education",
-    text: "Lorem ipsum is simply free text available in the market wesbites.",
+    text: "We provide facilities for the educational, economic and social welfare of Shias.",
     link: "#",
     extraClassName: "background-primary"
   },
@@ -31,7 +24,7 @@ const serviceOneData = [
     icon: "azino-icon-charity",
     title: "Community",
     extraClassName: "background-special",
-    text: "Lorem ipsum is simply free text available in the market wesbites.",
+    text: "We focus on the preservation, propagation and practice of articles of faith among Shias.",
     link: "#"
   }
 ];
@@ -56,7 +49,7 @@ const ServiceOne = () => {
         <Row>
           {serviceOneData.map(
             ({ icon, title, text, link, extraClassName }, index) => (
-              <Col md={6} lg={3} key={`service-one-key-${index}`}>
+              <Col md={4} lg={4} key={`service-one-key-${index}`}>
                 <div className={`service-one__box`}>
                   <div className={`service-one__icon ${extraClassName}`}>
                     <div className="service-one__icon-inner">

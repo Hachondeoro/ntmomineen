@@ -7,7 +7,7 @@ import "../assets/css/fontawesome-all.min.css";
 import "../assets/css/main.css";
 import "swiper/swiper-bundle.min.css";
 import "../assets/css/custom.scss";
-import 'react-tabs/style/react-tabs.css'
+import '../assets/css/react-tabs.css'
 
 
 // This default export is required in a new `pages/_app.js` file.

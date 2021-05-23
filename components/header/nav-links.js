@@ -8,22 +8,22 @@ const NavLinks = ({ extraClassName }) => {
   };
   return (
     <ul className={`main-menu__list ${extraClassName}`}>
-      <li className="dropdown">
+      <li>
         <Link href="/">
           <a>Home</a>
         </Link>
       </li>
-      <li className="dropdown">
+      <li>
         <Link href="/membership">
           <a>Membership</a>
         </Link>
       </li>
-      <li className="dropdown">
+      <li>
         <Link href="/donations">
           <a>Donations</a>
         </Link>
       </li>
-      <li className="dropdown">
+      <li>
         <Link href="/events">
           <a>Events</a>
         </Link>

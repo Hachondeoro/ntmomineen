@@ -37,19 +37,19 @@ const DonationOptions = () => {
                 <div className="donate-options__icon">
                   <i className="azino-icon-dove"></i>
                   <h3>
-                    <a href="#">Living</a>
+                    Living
                   </h3>
                 </div>
                 <div className="donate-options__icon">
                   <i className="azino-icon-hamburger"></i>
                   <h3>
-                    <a href="#">Food</a>
+                    Food
                   </h3>
                 </div>
                 <div className="donate-options__icon">
                   <i className="azino-icon-family"></i>
                   <h3>
-                    <a href="#">Family</a>
+                    Family
                   </h3>
                 </div>
               </div>

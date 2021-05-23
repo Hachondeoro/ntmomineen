@@ -6,7 +6,6 @@ export function request({ query, variables }) {
       authorization: `Bearer 7ab1b80cd0292ba6774f85037b7997`,
     },
   });
-  console.log("aheuaheuaheuhz")
   return client.request(query, variables);
 }
 
