@@ -22,6 +22,7 @@
     "react-scroll": "^1.8.0",
     "react-tabs": "^3.2.2",
     "react-visibility-sensor": "^5.1.1",
+    "sass": "^1.34.0",
     "simple-react-lightbox": "^3.3.4-1",
     "swiper": "^6.0.4"
   },
