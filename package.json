@@ -1,0 +1,33 @@
+{
+  "name": "azino-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^4.15.6",
+    "bootstrap": "^4.5.0",
+    "graphql": "^15.5.0",
+    "graphql-request": "^3.4.0",
+    "moment": "^2.29.1",
+    "next": "10.0.3",
+    "next-images": "^1.4.0",
+    "rc-scroll-anim": "^2.7.6",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.0.1",
+    "react-countup": "^4.3.3",
+    "react-datocms": "^1.6.3",
+    "react-device-detect": "^1.17.0",
+    "react-dom": "^17.0.1",
+    "react-modal-video": "^1.2.3",
+    "react-scroll": "^1.8.0",
+    "react-tabs": "^3.2.2",
+    "react-visibility-sensor": "^5.1.1",
+    "simple-react-lightbox": "^3.3.4-1",
+    "swiper": "^6.0.4"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}

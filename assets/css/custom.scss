@@ -1,0 +1,88 @@
+.custom {
+  --thm-font: "Jost", sans-serif;
+  --heading-font: "Libre Baskerville", serif;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  position: relative;
+  z-index: 10;
+
+  //   ::after {
+  //     content: "";
+  //     position: absolute;
+  //     top: 0;
+  //     left: 0;
+  //     right: 0;
+  //     bottom: 0;
+  //     opacity: 0.04;
+  //     background-repeat: no-repeat;
+  //     background-image: url(../images/shapes/about-count-pattern-1-1.png);
+  //   }
+  h1 {
+    font-size: 60px;
+    font-weight: 1000;
+  }
+  h3 {
+    margin: 0;
+    color: "black";
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    letter-spacing: -0.04em;
+    white-space: pre-line;
+  }
+
+  p {
+    font-family: var(--thm-font);
+    margin: 0;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 500;
+    color: #7e7e7e;
+  }
+  li {
+    font-family: var(--thm-font);
+    position: relative;
+    padding-left: 45px;
+    font-size: 18px;
+    font-weight: 500;
+    color: "black";
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bannerHome {
+    background-image: url("/static/bannerpages.png");
+    background-attachment: initial;
+    background-size:cover;
+    height: 350px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.2;
+    // align-items: center;
+    // justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .bannerHome {
+    background-image: url("/static/bannerpages.png");
+    // background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+  }
+}
