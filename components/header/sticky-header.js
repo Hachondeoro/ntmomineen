@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 
 import Link from "next/link";
 import NavLinks from "./nav-links";
-import logoLight from "../../assets/images/logo-light.png";
 
 const StickyHeader = ({ extraClassName }) => {
   const [sticky, setSticky] = useState(false);
@@ -28,11 +27,6 @@ const StickyHeader = ({ extraClassName }) => {
     >
       <div className="container">
         <div className="logo-box">
-          <Link href="/">
-            <a aria-label="logo image">
-              <img src={logoLight} width="101" alt="" />
-            </a>
-          </Link>
         </div>
         <div className="sticky-header__content">
           <NavLinks />

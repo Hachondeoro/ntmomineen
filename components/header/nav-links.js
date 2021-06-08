@@ -28,7 +28,7 @@ const NavLinks = ({ extraClassName }) => {
           <a>Events</a>
         </Link>
       </li>
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <Link href="#">
           <>
             <a>Pages</a>
@@ -62,7 +62,7 @@ const NavLinks = ({ extraClassName }) => {
             </Link>
           </li>
         </ul>
-      </li>
+      </li> */}
       <li>
         <Link href="/contact">
           <a>Contact</a>

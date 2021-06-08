@@ -37,7 +37,7 @@ const ContactCardCarousel = () => {
               <i aria-label="contact icon" className="azino-icon-family"></i>
               <h3>NT Momineen</h3>
               <p>
-                The Northern Territory Momineen Association (NTMA) is a
+                The Northern Territory Momineen Incorporated (NTMI) is a
                 non-profit registered organization of the Shia Ithna Asheri
                 Muslim community of Darwin, Australia.
               </p>

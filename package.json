@@ -6,6 +6,7 @@
   "dependencies": {
     "antd": "^4.15.6",
     "bootstrap": "^4.5.0",
+    "file-loader": "^6.2.0",
     "graphql": "^15.5.0",
     "graphql-request": "^3.4.0",
     "moment": "^2.29.1",

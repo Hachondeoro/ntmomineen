@@ -24,7 +24,7 @@ const AboutTwo = () => {
                 <p>
                   <img src={heart} width="15" alt="" /> About Azino Platform
                 </p>
-                <h3>Welcome to the Northern Territory Momineen Association</h3>
+                <h3>Welcome to the Northern Territory Momineen Incorporated</h3>
               </div>
               <p className="mb-40 pr-10">
                 Lorem ipsum dolor sit amet, consectetur notted adipisicing elit

@@ -2,80 +2,57 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import heartImage from "../../assets/images/shapes/heart-2-1.png";
 import bgImage from "../../assets/images/team/team-map-1-1.png";
-import teamImage1 from "../../assets/images/team/ali1.jpg";
-import teamImage2 from "../../assets/images/team/ibne1.jpg";
-import teamImage3 from "../../assets/images/team/ibne1.jpg";
-import teamImage4 from "../../assets/images/team/frank1.jpg";
+import ali from "../../assets/images/team/ali-face.jpg";
+import adeel from "../../assets/images/team/adeel.jpg";
+import amjid from "../../assets/images/team/amjid.jpg";
+import aun from "../../assets/images/team/aun.jpg";
+import ibne from "../../assets/images/team/ibne.jpg";
+import kazim from "../../assets/images/team/kazim.jpg";
+import syed from "../../assets/images/team/syed.jpg";
 
 const TeamData = [
   {
-    image: teamImage1,
+    image: syed,
     extraClassName: "content-bg-1",
-    name: "Ali Dhirani",
-    designation: "Community Leader",
-    social: [
-      {
-        link: "#",
-        socialClass: "fab fa-facebook-square"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-linkedin"
-      },
-      
-    ]
+    name: "Syed Murad Quasim",
+    designation: "President",
   },
   {
-    image: teamImage2,
+    image: amjid,
     extraClassName: "content-bg-2",
-    name: "Murad Quasim",
-    designation: "Treasurer",
-    social: [
-      {
-        link: "#",
-        socialClass: "fab fa-facebook-square"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-linkedin"
-      },
-      
-    ]
+    name: "Ali Amjid",
+    designation: "Vice President",
   },
   {
-    image: teamImage3,
+    image: ali,
     extraClassName: "content-bg-3",
-    name: "Ibne Hussain",
-    designation: "Accounting",
-    social: [
-      {
-        link: "#",
-        socialClass: "fab fa-facebook-square"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-linkedin"
-      },
-      
-    ]
+    name: "Ali Dhirani",
+    designation: "Secretary",
   },
   {
-    image: teamImage4,
+    image: kazim,
+    extraClassName: "content-bg-3",
+    name: "Kazim Raza",
+    designation: "Treasurer",
+  },
+  {
+    image: adeel,
+    extraClassName: "content-bg-3",
+    name: "Adeel Abbas",
+    designation: "Committee Member",
+  },
+  {
+    image: aun,
+    extraClassName: "content-bg-3",
+    name: "Aun Kazmi",
+    designation: "Committee Member",
+  },
+  {
+    image: ibne,
     extraClassName: "content-bg-4",
-    name: "Frank Espinoza",
-    designation: "Student",
-    social: [
-      {
-        link: "#",
-        socialClass: "fab fa-facebook-square"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-linkedin"
-      },
-      
-    ]
-  }
+    name: "Ibne Hussain",
+    designation: "Public Officer",
+  },
 ];
 
 const TeamHome = () => {
@@ -100,32 +77,25 @@ const TeamHome = () => {
             </Col>
             <Col md={12} lg={5}>
               <p className="team-about__top-text">
-                These are the leaders shaping our community and guiding our future.{" "}
+                These are the leaders shaping our community and guiding our
+                future.{" "}
               </p>
             </Col>
           </Row>
         </div>
-        <div className="team-4-col">
+        <div className="">
+          
+          <Row>
           {TeamData.map(
             ({ image, extraClassName, name, designation, social }, index) => (
               <div
-                className={`team-card text-center ${extraClassName}`}
+                className={`team-card text-center ${extraClassName} teamMobile ml-auto mr-auto text-center`}
                 key={`team-card-key-${index}`}
               >
                 <div className="team-card__image">
                   <img src={image} alt="" />
                 </div>
-                <div className="team-card__social">
-                  {social.map(({ link, socialClass }, index) => (
-                    <a
-                      href={link}
-                      aria-label="social link"
-                      key={`social-link-key-${index}`}
-                    >
-                      <i className={socialClass}></i>
-                    </a>
-                  ))}
-                </div>
+
                 <div className="team-card__content">
                   <h3>{name}</h3>
                   <p>{designation}</p>
@@ -133,6 +103,8 @@ const TeamHome = () => {
               </div>
             )
           )}
+          </Row>
+          
         </div>
       </Container>
     </section>

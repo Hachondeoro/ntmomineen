@@ -32,7 +32,7 @@ const AboutCounter = () => {
               </h3>
             </div>
             <p className="about-counter__text">
-              The Northern Territory Momineen Association (NTMA) is a
+              The Northern Territory Momineen Incorporated (NTMI) is a
               non-profit registered organization of the Shia Ithna Asheri Muslim
               community of Darwin, Australia. <br /> It is serving the religious
               and educational needs of over 100 members of the Urdu speaking

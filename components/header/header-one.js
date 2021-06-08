@@ -69,7 +69,7 @@ const HeaderOne = () => {
               className="d-none d-md-none d-lg-none d-xl-block"
             >
               <div className="main-header__top">
-                <p>Welcome to the Northern Territory Momineen Association</p>
+                <p>Welcome to the Northern Territory Momineen Incorporated</p>
                 <div className="main-header__social">
                   <a
                     href="https://www.facebook.com/groups/1666590756754465"

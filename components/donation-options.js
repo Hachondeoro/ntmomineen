@@ -19,9 +19,9 @@ const DonationOptions = () => {
                 </h3>
               </div>
               <p>
-                Northern Territory Mominee Association (NTMA) is an incorporated,
-                tax-exempt, non-profit organization located in the Darwin
-                area, Northern Territory, Australia. Please donate generously.{" "}
+                Northern Territory Momineen Incorporated (NTMI) is an
+                incorporated non-profit organization located in the Darwin area,
+                Northern Territory, Australia. Please donate generously.{" "}
               </p>
               <div className="donate-options__call">
                 <i className="azino-icon-telephone"></i>
@@ -36,21 +36,15 @@ const DonationOptions = () => {
               <div className="donate-options__icon-wrap">
                 <div className="donate-options__icon">
                   <i className="azino-icon-dove"></i>
-                  <h3>
-                    Living
-                  </h3>
+                  <h3>Living</h3>
                 </div>
                 <div className="donate-options__icon">
                   <i className="azino-icon-hamburger"></i>
-                  <h3>
-                    Food
-                  </h3>
+                  <h3>Food</h3>
                 </div>
                 <div className="donate-options__icon">
                   <i className="azino-icon-family"></i>
-                  <h3>
-                    Family
-                  </h3>
+                  <h3>Family</h3>
                 </div>
               </div>
             </div>
@@ -62,9 +56,7 @@ const DonationOptions = () => {
               data-wow-duration="1500ms"
             >
               <h3 className="text-center">Start donating now</h3>
-              <p className="text-center">
-                We accept donations via Paypal
-              </p>
+              <p className="text-center">We accept donations via Paypal</p>
               <label htmlFor="donate-name" className="sr-only"></label>
               <input type="text" id="donate-name" placeholder="Your Name" />
               <label htmlFor="donate-amount" className="sr-only"></label>

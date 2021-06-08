@@ -75,7 +75,7 @@ const Membership = () => {
                   <h3>Application for membership:</h3>
                   <p>
                     To apply for membership of the Northern Territory Momineen
-                    Association, the applicant must fill and submit an
+                    Incorporated, the applicant must fill and submit an
                     application through this website and pay the annual
                     membership.
                   </p>

@@ -22,8 +22,8 @@ const CallToAction = () => {
             lg={3}
             className="d-flex justify-content-start justify-content-md-center justify-content-xl-end justify-content-lg-end"
           >
-            <Link href="/become-volunteer">
-              <a className="thm-btn ">Become a Volunteer</a>
+            <Link href="/donations">
+              <a className="thm-btn ">Donate Today</a>
             </Link>
           </Col>
         </Row>

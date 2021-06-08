@@ -53,7 +53,7 @@
   .bannerHome {
     background-image: url("/static/bannerpages.png");
     background-attachment: initial;
-    background-size:cover;
+    background-size: cover;
     height: 350px;
     display: flex;
     position: absolute;
@@ -66,6 +66,24 @@
     opacity: 0.2;
     // align-items: center;
     // justify-content: center;
+  }
+  .islamicCalendar {
+    // padding-top: 40px;
+    border-radius: 12px;
+    height: 14em;
+    width: 200px;
+    border: 0;
+  }
+  .teamMobile{
+    img{
+      height:150px
+    }
+    h3{
+      font-size: 12px;
+    }
+    p{
+      font-size:10px
+    }
   }
 }
 
@@ -84,5 +102,16 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
+  }
+  .islamicCalendar {
+    border-radius: 12px;
+    border: 0;
+    height: 17.2em;
+    width: 250px;
+  }
+  .teamMobile{
+    img{
+      height:300px
+    }
   }
 }
