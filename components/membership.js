@@ -142,7 +142,7 @@ const Membership = () => {
                   </p>
                 </div>
                 <a
-                  href="https://ntmomineen.wildapricot.org/widget/membership"
+                  href="https://ntmomineen.wildapricot.org/widget/join-us"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
