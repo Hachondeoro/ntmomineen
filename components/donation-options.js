@@ -4,7 +4,7 @@ import heartImage from "../assets/images/shapes/heart-2-1.png";
 
 const DonationOptions = () => {
   return (
-    <section className="donate-options pt-120">
+    <section className="pt-120">
       <Container>
         <Row>
           <Col lg={6}>
@@ -50,36 +50,14 @@ const DonationOptions = () => {
             </div>
           </Col>
           <Col lg={6}>
-            <form
-              action="#"
-              className="donate-options__form wow fadeInUp"
-              data-wow-duration="1500ms"
-            >
-              <h3 className="text-center">Start donating now</h3>
-              <p className="text-center">We accept donations via Paypal</p>
-              <label htmlFor="donate-name" className="sr-only"></label>
-              <input type="text" id="donate-name" placeholder="Your Name" />
-              <label htmlFor="donate-amount" className="sr-only"></label>
-              <input
-                type="text"
-                placeholder="Donation Amount"
-                id="donate-amount"
-              />
-              <ul id="donate-amount__predefined" className="list-unstyled">
-                <li>
-                  <a href="#">$10</a>
-                </li>
-                <li>
-                  <a href="#">$20</a>
-                </li>
-                <li>
-                  <a href="#">$50</a>
-                </li>
-              </ul>
-              <button type="submit" className="thm-btn ">
-                Donate Now
-              </button>
-            </form>
+          <div className="custom">
+                <iframe
+                  width="100%"
+                  height="800px"
+                  frameBorder="no"
+                  src="https://ntmomineen.wildapricot.org/widget/donations"
+                ></iframe>
+              </div>
           </Col>
         </Row>
       </Container>
