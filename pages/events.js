@@ -8,7 +8,6 @@ import { Container } from "react-bootstrap";
 import EventCard from "@components/event/event-card";
 import PostPaginations from "@components/post-paginations";
 
-
 import { request } from "@components/DatoCMS/datocms.js";
 const MYQUERY = `query MyQuery {
   allEvents {
@@ -33,10 +32,13 @@ export async function getStaticProps() {
   };
 }
 
-
 const Events = ({ data }) => {
   return (
-    <Layout pageTitle="Events ||NT Momineen">
+    <Layout
+      pageTitle="Events ||NT Momineen"
+      pageDescription="Events that will be hosted by the organisation. Currently we have annual meeting held fortnightly"
+      keyWords="events"
+    >
       <HeaderOne />
       <StickyHeader />
       <PageHeader title="Events" crumbTitle="Events" />

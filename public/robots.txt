@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ntmomineen.com.au
+
+# Sitemaps
+Sitemap: https://ntmomineen.com.au/sitemap.xml

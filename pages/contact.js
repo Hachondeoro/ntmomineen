@@ -10,7 +10,11 @@ import Footer from "../components/footer";
 
 const Contact = () => {
   return (
-    <Layout pageTitle="Contact Page || NT Mominee">
+    <Layout
+      pageTitle="Contact Page || NT Mominee"
+      pageDescription="Contact page for the Northern Territory Momineen Incorporated"
+      keyWords="contact"
+    >
       <HeaderOne />
       <StickyHeader />
       <PageHeader title="Contact Page" crumbTitle="Contact Us" />

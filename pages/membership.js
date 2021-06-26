@@ -9,7 +9,11 @@ import Footer from "../components/footer";
 
 const Causes = () => {
   return (
-    <Layout pageTitle="Membership || NT Mominee">
+    <Layout
+      pageTitle="Membership || NT Mominee"
+      pageDescription="Northern Territory Momineen Incorporated application to be a member of the community"
+      keyWords="Membership, member"
+    >
       <HeaderOne />
       <StickyHeader />
       <PageHeader title="Membership" crumbTitle="Membership" />

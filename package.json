@@ -12,6 +12,7 @@
     "moment": "^2.29.1",
     "next": "10.0.3",
     "next-images": "^1.4.0",
+    "next-sitemap": "^1.6.124",
     "rc-scroll-anim": "^2.7.6",
     "react": "^17.0.1",
     "react-bootstrap": "^1.0.1",
@@ -30,6 +31,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap --config custom-sitemap.js",
     "start": "next start"
   }
 }

@@ -7,7 +7,7 @@ import AppleTouch from "../assets/images/favicons/apple-touch-icon.png";
 import Fevicon32 from "../assets/images/favicons/favicon-32x32.png";
 import Fevicon16 from "../assets/images/favicons/favicon-16x16.png";
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ pageTitle, pageDescription, keyWords, children }) => {
   const handleRadius = () => {
     const dynamicRadius = document.querySelectorAll(".dynamic-radius");
     dynamicRadius.forEach(function (btn) {
@@ -27,7 +27,15 @@ const Layout = ({ pageTitle, children }) => {
     <div>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8"/>
         <title>{pageTitle}</title>
+        <meta name="description" content={pageDescription} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
+        {/* Should actually remove the keywords*/}
+        <meta name="keywords" content={keyWords} />   
+        <meta property="og:type" content="website" />
+        <meta name="robots" content="index, follow"/>
         <link rel="apple-touch-icon" sizes="180x180" href={AppleTouch} />
         <link rel="icon" type="image/png" sizes="32x32" href={Fevicon32} />
         <link rel="icon" type="image/png" sizes="16x16" href={Fevicon16} />

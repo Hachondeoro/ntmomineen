@@ -16,6 +16,7 @@ import TestimonialsTwo from "../components/testimonials/testimonials-two";
 import CallToAction from "../components/call-to-action/call-to-action";
 import GoogleMap from "../components/google-map";
 import Footer from "../components/footer";
+import Head from "next/head";
 
 import { request } from "@components/DatoCMS/datocms.js";
 const MYQUERY = `query MyQuery {
@@ -41,17 +42,18 @@ export async function getStaticProps() {
   };
 }
 
-
-
-const HomeOne = ({data}) => {
+const HomeOne = ({ data }) => {
   return (
-    <Layout pageTitle="Home || NT Momineen">
+    <Layout
+      pageTitle="Home || NT Momineen"
+      pageDescription="Northern Territory Momineen Incorporated for the Shia Ithna Asheri Muslim community of Darwin, Australia"
+      keyWords = "Shias in Darwin, Darwin Shias, Momineen darwin"
+    >
       <HeaderOne />
       <StickyHeader />
       <MainSlider />
       <VideoCardTwo />
-      {console.log(data.allEvents)}
-      <ServiceOne events={data.allEvents}/>
+      <ServiceOne events={data.allEvents} />
       {/* <AboutCounter /> */}
       {/* <CausesHome /> */}
       <DonationOptions />
