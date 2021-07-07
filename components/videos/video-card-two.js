@@ -29,12 +29,13 @@ const VideoCardTwo = () => {
             </Col>
             <Col lg={4} className="ml-auto mr-auto text-center">
               <iframe
-                // id="g2hFrame"
-                className="islamicCalendar"
                 title="islamic-calendar"
+                className="islamicCalendar"
                 scrolling="off"
-                src="https://prayer-times.info/en/show_prayertimes.php?city_link=darwin&country_link=australia&box_style=2&nodate=1"
-              ></iframe>
+                src="https://www.islamicfinder.org/prayer-widget/2158177/shafi/1/0/18.0/17.0"
+              >
+                {" "}
+              </iframe>
             </Col>
             <Col lg={5}>
               <p>
