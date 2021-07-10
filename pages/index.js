@@ -45,8 +45,8 @@ export async function getStaticProps() {
 const HomeOne = ({ data }) => {
   return (
     <Layout
-      pageTitle="Home || NT Momineen"
-      pageDescription="Northern Territory Momineen Incorporated for the Shia Ithna Asheri Muslim community of Darwin, Australia"
+      pageTitle="NT Momineen Incorporated"
+      pageDescription="Serving the Shia Ithna Asheri Muslim community of Darwin, Australia"
       keyWords = "Shias in Darwin, Darwin Shias, Momineen darwin"
     >
       <HeaderOne />
