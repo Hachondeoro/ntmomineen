@@ -4,6 +4,8 @@ import { Link as ScrollLink } from "react-scroll";
 import { Container, Row, Col } from "react-bootstrap";
 import logoLight from "../assets/images/resources/banneramber.png";
 import logoSamaf from "../assets/images/samaflogo2.png";
+import logoBakery from "../assets/images/313bakery.png";
+import logoTabassums from "../assets/images/tabassums.png";
 
 const Footer = () => {
   return (
@@ -13,27 +15,57 @@ const Footer = () => {
           <Row>
             <Col lg={4} md={6} sm={12}>
               <div className="footer-widget mb-40 footer-widget__about">
-                <Link href="/">
-                  <a aria-label="logo image">
-                    <img
-                      src={logoLight}
-                      className="footer-widget__logo"
-                      width="201"
-                      alt=""
-                    />
-                  </a>
-                </Link>
-                <br/>
-                <Link href="/">
-                  <a aria-label="logo image">
-                    <img
-                      src={logoSamaf}
-                      className="footer-widget__logo"
-                      width="201"
-                      alt=""
-                    />
-                  </a>
-                </Link>
+                <Container>
+                <Row>
+                  <Col xs={6}>
+                    <Link href="/">
+                      <a aria-label="logo image">
+                        <img
+                          src={logoLight}
+                          className="footer-widget__logo mx-auto"
+                          width="100%"
+                          alt=""
+                        />
+                      </a>
+                    </Link>
+                    <br />
+                    <Link href="/">
+                      <a aria-label="logo image">
+                        <img
+                          src={logoTabassums}
+                          className="footer-widget__logo mx-auto"
+                          width="100%"
+                          alt=""
+                        />
+                      </a>
+                    </Link>
+                  </Col>
+                  <Col xs={6}>
+                    <Link href="/">
+                      <a aria-label="logo image">
+                        <img
+                          src={logoSamaf}
+                          className="footer-widget__logo mx-auto"
+                          width="80%"
+                          alt=""
+                        />
+                      </a>
+                    </Link>
+                    <br />
+                    <br />
+                    <Link href="/">
+                      <a aria-label="logo image">
+                        <img
+                          src={logoBakery}
+                          className="footer-widget__logo mx-auto"
+                          width="80%"
+                          alt=""
+                        />
+                      </a>
+                    </Link>
+                  </Col>
+                </Row>
+                </Container>
                 <p>
                   {/* Lorem ipsum dolor sit amet consect etur adi pisicing elit sed. */}
                 </p>
