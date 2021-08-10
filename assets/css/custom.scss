@@ -49,6 +49,12 @@
   }
 }
 
+.video-card-two {
+  img {
+    border-radius: 10%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .bannerHome {
     background-image: url("/static/bannerpages.png");
@@ -74,15 +80,15 @@
     width: 240px;
     border: 0;
   }
-  .teamMobile{
-    img{
-      height:150px
+  .teamMobile {
+    img {
+      height: 150px;
     }
-    h3{
+    h3 {
       font-size: 12px;
     }
-    p{
-      font-size:10px
+    p {
+      font-size: 10px;
     }
   }
 }
@@ -109,9 +115,9 @@
     height: 15.8em;
     width: 250px;
   }
-  .teamMobile{
-    img{
-      height:300px
+  .teamMobile {
+    img {
+      height: 300px;
     }
   }
 }
