@@ -27,7 +27,7 @@ const MobileNav = () => {
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="azino-icon-email"></i>
-            <a href="mailto:info@ntmominee.com.au">info@ntmominee.com.au</a>
+            <a href="mailto:ntmomineen@gmail.com">ntmomineen@gmail.com</a>
           </li>
           <li>
             <i className="azino-icon-telephone"></i>

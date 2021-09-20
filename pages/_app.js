@@ -10,6 +10,8 @@ import "../assets/css/custom.scss";
 import "../assets/css/fontawesome-all.min.css";
 import "../assets/css/main.css";
 import "../assets/css/react-tabs.css";
+import "react-image-gallery/styles/scss/image-gallery.scss";
+
 
 export default class MyApp extends App {
   componentDidMount() {

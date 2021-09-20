@@ -1,14 +1,14 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import heartImage from "../../assets/images/shapes/heart-2-1.png";
-import bgImage from "../../assets/images/team/team-map-1-1.png";
+import jawad from "../../assets/images/team/jawad.jpg";
 import ali from "../../assets/images/team/ali-face.jpg";
-import adeel from "../../assets/images/team/adeel.jpg";
 import amjid from "../../assets/images/team/amjid.jpg";
 import aun from "../../assets/images/team/aun.jpg";
-import ibne from "../../assets/images/team/ibne.jpg";
+import ibneali from "../../assets/images/team/ibneali.jpg";
 import kazim from "../../assets/images/team/kazim.jpg";
 import syed from "../../assets/images/team/syed.jpg";
+import bgImage from "../../assets/images/team/team-map-1-1.png";
 
 const TeamData = [
   {
@@ -20,7 +20,7 @@ const TeamData = [
   {
     image: amjid,
     extraClassName: "content-bg-2",
-    name: "Ali Amjid",
+    name: "Amjid Ali",
     designation: "Vice President",
   },
   {
@@ -36,9 +36,9 @@ const TeamData = [
     designation: "Treasurer",
   },
   {
-    image: adeel,
+    image: jawad,
     extraClassName: "content-bg-3",
-    name: "Adeel Abbas",
+    name: "Jawad Haider",
     designation: "Committee Member",
   },
   {
@@ -48,7 +48,7 @@ const TeamData = [
     designation: "Committee Member",
   },
   {
-    image: ibne,
+    image: ibneali,
     extraClassName: "content-bg-4",
     name: "Ibne Hussain",
     designation: "Public Officer",
@@ -59,8 +59,9 @@ const TeamHome = () => {
   return (
     <section
       className="team-about pt-120 pb-120"
-      style={{ backgroundImage: `url(${bgImage})` }}
-    >
+      style={{
+        backgroundImage: `url(${bgImage})`,
+      }}>
       <Container>
         <div className="team-about__top">
           <Row className=" align-items-center">
@@ -77,21 +78,17 @@ const TeamHome = () => {
             </Col>
             <Col md={12} lg={5}>
               <p className="team-about__top-text">
-                These are the leaders shaping our community and guiding our
-                future.{" "}
+                These are the leaders shaping our community and guiding our future.{" "}
               </p>
             </Col>
           </Row>
         </div>
         <div className="">
-          
           <Row>
-          {TeamData.map(
-            ({ image, extraClassName, name, designation, social }, index) => (
+            {TeamData.map(({ image, extraClassName, name, designation }, index) => (
               <div
                 className={`team-card text-center ${extraClassName} teamMobile ml-auto mr-auto text-center`}
-                key={`team-card-key-${index}`}
-              >
+                key={`team-card-key-${index}`}>
                 <div className="team-card__image">
                   <img src={image} alt="" />
                 </div>
@@ -101,10 +98,8 @@ const TeamHome = () => {
                   <p>{designation}</p>
                 </div>
               </div>
-            )
-          )}
+            ))}
           </Row>
-          
         </div>
       </Container>
     </section>

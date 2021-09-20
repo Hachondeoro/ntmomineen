@@ -28,7 +28,6 @@ export async function getStaticProps() {
   const data = await request({
     query: MYQUERY,
   });
-  console.log(data)
   return {
     props: { data },
     revalidate: 10,
@@ -84,7 +83,6 @@ const EVENTS_DATA = [
 const EventPage = ({ data }) => {
   return (
     <section className="event-page pt-120 pb-120">
-      {console.log(data)}
       <Container>
         <div className="event-grid">
           {EVENTS_DATA.map((event, index) => (

@@ -77,7 +77,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="#">
-                      <i className="azino-icon-email"></i>info@ntmominee.com.au
+                      <i className="azino-icon-email"></i>ntmomineen@gmail.com
                     </a>
                   </li>
                   <li>

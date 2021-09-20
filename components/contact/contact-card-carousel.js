@@ -63,7 +63,7 @@ const ContactCardCarousel = () => {
               <i aria-label="contact icon" className="azino-icon-contact"></i>
               <h3>Contact</h3>
               <p>
-                <a href="mailto:">info@ntmominee.com.au</a> <br />{" "}
+                <a href="mailto:">ntmomineen@gmail.com</a> <br />{" "}
                 <a href="tel:0448 192 130">0448 192 130</a>
               </p>
             </div>

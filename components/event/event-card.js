@@ -7,13 +7,6 @@ const EventCard = ({ data }) => {
   return (
     <div className="event-card">
       <div className="event-card-inner">
-        <div className="event-card-image">
-          <div className="event-card-image-inner">
-            <img src={image.url} alt="" width="100%" />
-            <span>{moment(date).format("MMMM Do")}</span>
-            
-          </div>
-        </div>
         <div className="event-card-content">
           <h3>{title}</h3>
           <ul className="event-card-list">
@@ -26,6 +19,11 @@ const EventCard = ({ data }) => {
               <strong>Location:</strong> {location}
             </li>
           </ul>
+          <div className="event-card-image-inner">
+            <img src={image.url} alt="" width="100%" />
+            <span>{date}</span>
+            
+          </div>
         </div>
       </div>
     </div>

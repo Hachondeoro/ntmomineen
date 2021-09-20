@@ -1,24 +1,18 @@
+import { request } from "@components/DatoCMS/datocms.js";
 import React from "react";
-import Layout from "../components/layout";
+import DonationOptions from "../components/donation-options";
+import Footer from "../components/footer";
+import GalleryHome from "../components/gallery/gallery-home";
+import GalleryTestimonials from "../components/gallery/gallery-testimonials";
+import GoogleMap from "../components/google-map";
 import HeaderOne from "../components/header/header-one";
 import StickyHeader from "../components/header/sticky-header";
-import MainSlider from "../components/slider/main-slider";
-import VideoCardTwo from "../components/videos/video-card-two";
+import Layout from "../components/layout";
 import ServiceOne from "../components/services/service-one";
-// import AboutCounter from "../components/about/about-counter";
-import CausesHome from "../components/causes/causes-home";
-import DonationOptions from "../components/donation-options";
+import MainSlider from "../components/slider/main-slider";
 import TeamHome from "../components/team/team-home";
-import CallToActionTwo from "../components/call-to-action/call-to-action-two";
-import GalleryTestimonials from "../components/gallery/gallery-testimonials";
-import GalleryHome from "../components/gallery/gallery-home";
-import TestimonialsTwo from "../components/testimonials/testimonials-two";
-import CallToAction from "../components/call-to-action/call-to-action";
-import GoogleMap from "../components/google-map";
-import Footer from "../components/footer";
-import Head from "next/head";
+import VideoCardTwo from "../components/videos/video-card-two";
 
-import { request } from "@components/DatoCMS/datocms.js";
 const MYQUERY = `query MyQuery {
   allEvents {
     title
@@ -28,6 +22,12 @@ const MYQUERY = `query MyQuery {
     image {
       url
     }
+  }
+  allUpcomingEvents {
+    dateAndTime
+    day
+    address
+    contact
   }
 }
 `;
@@ -47,13 +47,12 @@ const HomeOne = ({ data }) => {
     <Layout
       pageTitle="NT Momineen Incorporated"
       pageDescription="Serving the Shia Ithna Asheri Muslim community of Darwin, Australia"
-      keyWords = "Shias in Darwin, Darwin Shias, Momineen darwin"
-    >
+      keyWords="Shias in Darwin, Darwin Shias, Momineen darwin">
       <HeaderOne />
       <StickyHeader />
       <MainSlider />
       <VideoCardTwo />
-      <ServiceOne events={data.allEvents} />
+      <ServiceOne events={data} />
       {/* <AboutCounter /> */}
       {/* <CausesHome /> */}
       <DonationOptions />
@@ -62,7 +61,6 @@ const HomeOne = ({ data }) => {
         <GalleryHome />
         {/* <TestimonialsTwo /> */}
       </GalleryTestimonials>
-      <CallToAction />
       <GoogleMap extraClass="home" />
       <Footer />
     </Layout>

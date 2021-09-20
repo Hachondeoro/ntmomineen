@@ -93,8 +93,8 @@ const HeaderOne = () => {
                 <ul className="list-unstyled main-header__info-list">
                   <li>
                     <i className="azino-icon-email"></i>
-                    <a href="mailto:info@ntmominee.com.au">
-                      info@ntmominee.com.au
+                    <a href="mailto:ntmomineen@gmail.com">
+                      ntmomineen@gmail.com
                     </a>
                   </li>
                   <li>
