@@ -90,7 +90,6 @@ export function PrayTimes(method) {
 	// Default Parameters in Calculation Methods
 	defaultParams = {
 		maghrib: '0 min', midnight: 'Standard'
-
 	},
  
  
@@ -319,6 +318,7 @@ export function PrayTimes(method) {
 	computePrayerTimes: function(times) {
 		times = this.dayPortion(times);
 		var params  = setting;
+		console.log(setting)
 		
 		var imsak   = this.sunAngleTime(this.eval(params.imsak), times.imsak, 'ccw');
 		var fajr    = this.sunAngleTime(this.eval(params.fajr), times.fajr, 'ccw');
@@ -351,7 +351,7 @@ export function PrayTimes(method) {
 		times = this.adjustTimes(times);
 		
 		// add midnight time
-		times.midnight = (setting.midnight == 'Jafari') ? 
+		times.midnight = (setting.midnight == 'Jafari') ?
 				times.sunset+ this.timeDiff(times.sunset, times.fajr)/ 2 :
 				times.sunset+ this.timeDiff(times.sunset, times.sunrise)/ 2;
 
