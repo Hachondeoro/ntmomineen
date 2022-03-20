@@ -126,9 +126,16 @@ const ServiceOne = (props) => {
         </Row>
         <div className="block-title">
           <h3>Upcoming events</h3>
-          <div style={{ fontSize: "0.7em" }}>
-            <Table columns={columns} data={data} />
-          </div>
+          <Row>
+            {props.events.allCalendars.map((event, index) => (
+              <Col sm={6}>
+                <div key={event.title}>
+                  <p>{event.title}</p>
+                  <img src={event.image.url} alt={event.title} width="100%" />
+                </div>
+              </Col>
+            ))}
+          </Row>
           <section className="event-page pt-20">
             <Container>
               <div className="event-grid">

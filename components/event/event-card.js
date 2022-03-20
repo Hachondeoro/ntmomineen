@@ -11,18 +11,17 @@ const EventCard = ({ data }) => {
           <h3>{title}</h3>
           <ul className="event-card-list">
             <li>
-              <i className="azino-icon-clock"></i>
+              <i className="azino-icon-clock" />
               <strong>Time:</strong> {time}
             </li>
             <li>
-              <i className="azino-icon-pin1"></i>
+              <i className="azino-icon-pin1" />
               <strong>Location:</strong> {location}
             </li>
           </ul>
           <div className="event-card-image-inner">
-            <img src={image.url} alt="" width="100%" />
+            <img src={image.url} alt="" width="100%"/>
             <span>{date}</span>
-            
           </div>
         </div>
       </div>

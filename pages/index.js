@@ -29,6 +29,12 @@ const MYQUERY = `query MyQuery {
     address
     contact
   }
+  allCalendars {
+    title
+    image {
+      url
+    }
+  }
 }
 `;
 

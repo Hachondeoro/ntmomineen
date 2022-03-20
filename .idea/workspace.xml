@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f139982-864d-4050-aac0-0d67a8de1c95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/PrayTimes.js" afterDir="false" />
+    <list default="true" id="2f139982-864d-4050-aac0-0d67a8de1c95" name="Default Changelist" comment="Implemented Islamic Calendar">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/services/service-one.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/service-one.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/videos/video-card-two.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/videos/video-card-two.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +25,9 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -74,8 +70,28 @@
       <updated>1623461599768</updated>
       <workItem from="1623461631306" duration="3988000" />
       <workItem from="1643711945887" duration="7737000" />
-      <workItem from="1643726100502" duration="330000" />
+      <workItem from="1643726100502" duration="558000" />
+      <workItem from="1644719183679" duration="9618000" />
+      <workItem from="1644798504390" duration="797000" />
+      <workItem from="1646736130045" duration="934000" />
+      <workItem from="1646743657120" duration="12000" />
+      <workItem from="1646753202525" duration="5000" />
     </task>
+    <task id="LOCAL-00001" summary="Implemented Islamic Calendar">
+      <created>1643726645039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643726645039</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implemented Islamic Calendar">
+      <created>1644729289846</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644729289846</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,7 +107,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented Islamic Calendar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Islamic Calendar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
