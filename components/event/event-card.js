@@ -8,19 +8,20 @@ const EventCard = ({ data }) => {
     <div className="event-card">
       <div className="event-card-inner">
         <div className="event-card-content">
-          <h3>{title}</h3>
-          <ul className="event-card-list">
-            <li>
-              <i className="azino-icon-clock" />
-              <strong>Time:</strong> {time}
-            </li>
-            <li>
-              <i className="azino-icon-pin1" />
-              <strong>Location:</strong> {location}
-            </li>
-          </ul>
+          <div className="bodyEvent"><h3>{title}</h3>
+            <ul className="event-card-list">
+              <li>
+                <i className="azino-icon-clock" />
+                <strong>Time:</strong> {time}
+              </li>
+              <li>
+                <i className="azino-icon-pin1" />
+                <strong>Location:</strong> {location}
+              </li>
+            </ul>
+          </div>
           <div className="event-card-image-inner">
-            <img src={image.url} alt="" width="100%"/>
+            <img src={image.url} alt="" width="100%" className="imageEvent"/>
             <span>{date}</span>
           </div>
         </div>

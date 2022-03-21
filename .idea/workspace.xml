@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f139982-864d-4050-aac0-0d67a8de1c95" name="Default Changelist" comment="Implemented Islamic Calendar">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+    <list default="true" id="2f139982-864d-4050-aac0-0d67a8de1c95" name="Default Changelist" comment="Changed table events to a image file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/event/event-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/event/event-card.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -76,6 +76,8 @@
       <workItem from="1646736130045" duration="934000" />
       <workItem from="1646743657120" duration="12000" />
       <workItem from="1646753202525" duration="5000" />
+      <workItem from="1647756198771" duration="3046000" />
+      <workItem from="1647866575225" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented Islamic Calendar">
       <created>1643726645039</created>
@@ -91,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644729289846</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed table events to a image file">
+      <created>1647758616887</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647758616887</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +119,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented Islamic Calendar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Islamic Calendar" />
+    <MESSAGE value="Changed table events to a image file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed table events to a image file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
