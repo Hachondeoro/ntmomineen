@@ -126,6 +126,11 @@ const ServiceOne = (props) => {
         </Row>
         <div className="block-title">
           <h3>Upcoming events</h3>
+          <div style={{ fontSize: "0.7em" }}>
+            <Table columns={columns} data={data} />
+          </div>
+          <br/>
+          <br/>
           <Row>
             {props.events.allCalendars.map((event, index) => (
               <Col sm={6}>

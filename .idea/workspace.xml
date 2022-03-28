@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f139982-864d-4050-aac0-0d67a8de1c95" name="Default Changelist" comment="Changed table events to a image file">
+    <list default="true" id="2f139982-864d-4050-aac0-0d67a8de1c95" name="Default Changelist" comment="Improved responsiveness for the event cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/event/event-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/event/event-card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/google-map.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/google-map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/services/service-one.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/service-one.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,8 @@
       <workItem from="1646743657120" duration="12000" />
       <workItem from="1646753202525" duration="5000" />
       <workItem from="1647756198771" duration="3046000" />
-      <workItem from="1647866575225" duration="380000" />
+      <workItem from="1647866575225" duration="639000" />
+      <workItem from="1648433385165" duration="1493000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented Islamic Calendar">
       <created>1643726645039</created>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647758616887</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Improved responsiveness for the event cards">
+      <created>1647867089804</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647867089804</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +128,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented Islamic Calendar" />
     <MESSAGE value="Changed table events to a image file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed table events to a image file" />
+    <MESSAGE value="Improved responsiveness for the event cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved responsiveness for the event cards" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
