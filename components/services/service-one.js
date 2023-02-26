@@ -23,10 +23,8 @@ const ServiceOne = (props) => {
           `https://api.aladhan.com/v1/calendarByCity?city=Darwin&country=Australia&method=0&month=${month}&year=${year}`,
         )
         .then((res) => {
-          console.log(res);
           const current_day = res.data.data[day - 1];
           let alt_date = current_day.date.hijri;
-          console.log(alt_date);
           let alt_date_string = `${alt_date.day} ${alt_date.month.en} ${alt_date.year}
           -  ${alt_date.month.ar} ${alt_date.weekday.ar}`;
           setAlt_date(alt_date_string);

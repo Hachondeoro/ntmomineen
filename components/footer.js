@@ -93,16 +93,6 @@ const Footer = () => {
                 <h3 className="footer-widget__title">Explore</h3>
                 <ul className="list-unstyled footer-widget__link-list">
                   <li>
-                    <Link href="/causes">
-                      <a>Our Causes</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/about">
-                      <a>About us</a>
-                    </Link>
-                  </li>
-                  <li>
                     <Link href="/events">
                       <a>Upcoming Events</a>
                     </Link>
