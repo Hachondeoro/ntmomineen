@@ -35,6 +35,13 @@ const MYQUERY = `query MyQuery {
       url
     }
   }
+  allMembers {
+    name
+    designation
+    image {
+      url
+    }
+  } 
 }
 `;
 
@@ -62,7 +69,7 @@ const HomeOne = ({ data }) => {
       {/* <AboutCounter /> */}
       {/* <CausesHome /> */}
       <DonationOptions />
-      <TeamHome />
+      <TeamHome members={data["allMembers"]} />
       <GalleryTestimonials>
         <GalleryHome />
         {/* <TestimonialsTwo /> */}

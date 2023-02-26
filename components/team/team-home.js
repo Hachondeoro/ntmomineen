@@ -1,61 +1,10 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import heartImage from "../../assets/images/shapes/heart-2-1.png";
-import jawad from "../../assets/images/team/jawad.jpg";
-import ali from "../../assets/images/team/ali-face.jpg";
-import amjid from "../../assets/images/team/amjid.jpg";
-import aun from "../../assets/images/team/aun.jpg";
-import ibneali from "../../assets/images/team/ibneali.jpg";
-import kazim from "../../assets/images/team/kazim.jpg";
-import syed from "../../assets/images/team/syed.jpg";
 import bgImage from "../../assets/images/team/team-map-1-1.png";
 
-const TeamData = [
-  {
-    image: syed,
-    extraClassName: "content-bg-1",
-    name: "Syed Murad Quasim",
-    designation: "President",
-  },
-  {
-    image: amjid,
-    extraClassName: "content-bg-2",
-    name: "Amjid Ali",
-    designation: "Vice President",
-  },
-  {
-    image: ali,
-    extraClassName: "content-bg-3",
-    name: "Ali Dhirani",
-    designation: "Secretary",
-  },
-  {
-    image: kazim,
-    extraClassName: "content-bg-3",
-    name: "Kazim Raza",
-    designation: "Treasurer",
-  },
-  {
-    image: jawad,
-    extraClassName: "content-bg-3",
-    name: "Jawad Haider",
-    designation: "Committee Member",
-  },
-  {
-    image: aun,
-    extraClassName: "content-bg-3",
-    name: "Aun Kazmi",
-    designation: "Committee Member",
-  },
-  {
-    image: ibneali,
-    extraClassName: "content-bg-4",
-    name: "Ibne Hussain",
-    designation: "Public Officer",
-  },
-];
 
-const TeamHome = () => {
+const TeamHome = (props) => {
   return (
     <section
       className="team-about pt-120 pb-120"
@@ -85,12 +34,12 @@ const TeamHome = () => {
         </div>
         <div className="">
           <Row>
-            {TeamData.map(({ image, extraClassName, name, designation }, index) => (
+            {props.members.map(({ image, name, designation }, index) => (
               <div
-                className={`team-card text-center ${extraClassName} teamMobile ml-auto mr-auto text-center`}
+                className={`team-card text-center content-bg-2 teamMobile ml-auto mr-auto text-center`}
                 key={`team-card-key-${index}`}>
                 <div className="team-card__image">
-                  <img src={image} alt="" />
+                  <img src={image.url} alt="" />
                 </div>
 
                 <div className="team-card__content">
