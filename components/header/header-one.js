@@ -99,7 +99,7 @@ const HeaderOne = () => {
                   </li>
                   <li>
                     <i className="azino-icon-telephone"></i>
-                    <a href="tel:0448 192 130">0448 192 130</a>
+                    <a href="tel:0414 880 169">0414 880 169</a>
                   </li>
                 </ul>
               </div>
