@@ -51,7 +51,7 @@ const ContactCardCarousel = () => {
               <i aria-label="contact icon" className="azino-icon-address"></i>
               <h3>Address</h3>
               <p>
-                174 Forrest Parade <br /> Darwin. Australia
+                5/74 Winnellie Road<br /> Darwin. Australia
               </p>
             </div>
           </SwiperSlide>
@@ -64,7 +64,7 @@ const ContactCardCarousel = () => {
               <h3>Contact</h3>
               <p>
                 <a href="mailto:">ntmomineen@gmail.com</a> <br />{" "}
-                <a href="tel:0448 192 130">0448 192 130</a>
+                <a href="tel:414 880 169">414 880 169</a>
               </p>
             </div>
           </SwiperSlide>
