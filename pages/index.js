@@ -1,6 +1,6 @@
 import { request } from "@components/DatoCMS/datocms.js";
 import React from "react";
-import DonationOptions from "../components/donation-options";
+// import DonationOptions from "../components/donation-options";
 import Footer from "../components/footer";
 import GalleryHome from "../components/gallery/gallery-home";
 import GalleryTestimonials from "../components/gallery/gallery-testimonials";
@@ -68,7 +68,7 @@ const HomeOne = ({ data }) => {
       <ServiceOne events={data} />
       {/* <AboutCounter /> */}
       {/* <CausesHome /> */}
-      <DonationOptions />
+      {/*<DonationOptions />*/}
       <TeamHome members={data["allMembers"]} />
       <GalleryTestimonials>
         <GalleryHome />

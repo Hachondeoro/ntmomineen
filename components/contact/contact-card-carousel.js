@@ -64,7 +64,7 @@ const ContactCardCarousel = () => {
               <h3>Contact</h3>
               <p>
                 <a href="mailto:">ntmomineen@gmail.com</a> <br />{" "}
-                <a href="tel:414 880 169">414 880 169</a>
+                <a href="tel:414 880 169">0414 880 169</a>
               </p>
             </div>
           </SwiperSlide>
