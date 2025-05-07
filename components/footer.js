@@ -72,7 +72,7 @@ const Footer = () => {
                 <ul className="list-unstyled footer-widget__contact">
                   <li>
                     <a href="#">
-                      <i className="azino-icon-telephone"></i>0414 880 169
+                      <i className="azino-icon-telephone"></i>0405 736 495
                     </a>
                   </li>
                   <li>
