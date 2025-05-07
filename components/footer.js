@@ -82,7 +82,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="#">
-                      <i className="azino-icon-pin"></i>Darwin NT, Australia
+                      <i className="azino-icon-pin"></i>5/74, Winnellie Road, Darwin
                     </a>
                   </li>
                 </ul>
