@@ -26,7 +26,7 @@ const DonationOptions = () => {
                 <div className="donate-options__call-content">
                   <p>
                     Have any question about donation? <br /> <span>Call us now:</span>{" "}
-                    <a href="tel:0448 192 130"> 0448 192 130</a>
+                    <a href="tel:0405 736 495"> 0405 736 495</a>
                   </p>
                 </div>
               </div>

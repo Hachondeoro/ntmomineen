@@ -31,7 +31,7 @@ const MobileNav = () => {
           </li>
           <li>
             <i className="azino-icon-telephone"></i>
-            <a href="tel:0448 192 130">0448 192 130</a>
+            <a href="tel:0405 736 495">0405 736 495</a>
           </li>
         </ul>
         <div className="mobile-nav__top">
